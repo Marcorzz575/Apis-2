@@ -1,0 +1,546 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "MenuWebAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CatalogosSat/colonias/{cp}": {
+      "get": {
+        "tags": [
+          "CatalogosSat"
+        ],
+        "parameters": [
+          {
+            "name": "cp",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CatalogosSat/localidades/{idEstado}": {
+      "get": {
+        "tags": [
+          "CatalogosSat"
+        ],
+        "parameters": [
+          {
+            "name": "idEstado",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Configuracion": {
+      "get": {
+        "tags": [
+          "Configuracion"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Configuracion/{id}": {
+      "put": {
+        "tags": [
+          "Configuracion"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Configuracion"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Configuracion"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Configuracion"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Menus/PorRol/{idRol}": {
+      "get": {
+        "tags": [
+          "Menus"
+        ],
+        "parameters": [
+          {
+            "name": "idRol",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuarios": {
+      "get": {
+        "tags": [
+          "Usuarios"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Usuarios"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Usuarios/{id}": {
+      "get": {
+        "tags": [
+          "Usuarios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Usuarios"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Usuario"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CStatusRegistro": {
+        "type": "object",
+        "properties": {
+          "idStatusRegistro": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "menus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Menu"
+            },
+            "nullable": true
+          },
+          "rols": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Rol"
+            },
+            "nullable": true
+          },
+          "rolMenu": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RolMenu"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Configuracion": {
+        "required": [
+          "propiedad",
+          "recurso",
+          "valor"
+        ],
+        "type": "object",
+        "properties": {
+          "idConfiguracion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idNegocio": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "recurso": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "propiedad": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "valor": {
+            "maxLength": 50,
+            "minLength": 1,
+            "type": "string"
+          },
+          "fechaModificacion": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idStatusRegistro": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDTO": {
+        "type": "object",
+        "properties": {
+          "correo": {
+            "type": "string",
+            "nullable": true
+          },
+          "clave": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Menu": {
+        "type": "object",
+        "properties": {
+          "idMenu": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "icono": {
+            "type": "string",
+            "nullable": true
+          },
+          "controlador": {
+            "type": "string",
+            "nullable": true
+          },
+          "paginaAccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "idMenuPadre": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idStatusRegistro": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idStatusRegistroNavigation": {
+            "$ref": "#/components/schemas/CStatusRegistro"
+          },
+          "idMenuPadreNavigation": {
+            "$ref": "#/components/schemas/Menu"
+          },
+          "inverseIdMenuPadreNavigation": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Menu"
+            },
+            "nullable": true
+          },
+          "rolMenus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RolMenu"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Rol": {
+        "type": "object",
+        "properties": {
+          "idRol": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "idStatusRegistro": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idStatusRegistroNavigation": {
+            "$ref": "#/components/schemas/CStatusRegistro"
+          },
+          "rolMenus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/RolMenu"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RolMenu": {
+        "type": "object",
+        "properties": {
+          "idRolMenu": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idRol": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idMenu": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idStatusRegistro": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idRolNavigation": {
+            "$ref": "#/components/schemas/Rol"
+          },
+          "idMenuNavigation": {
+            "$ref": "#/components/schemas/Menu"
+          },
+          "idStatusRegistroNavigation": {
+            "$ref": "#/components/schemas/CStatusRegistro"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Usuario": {
+        "required": [
+          "clave",
+          "correo",
+          "nombre",
+          "telefono"
+        ],
+        "type": "object",
+        "properties": {
+          "idUsuario": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "correo": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "telefono": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "clave": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "idRol": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "urlFoto": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombreFoto": {
+            "type": "string",
+            "nullable": true
+          },
+          "idStatusRegistro": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fechaRegistro": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "rol": {
+            "$ref": "#/components/schemas/Rol"
+          },
+          "statusRegistro": {
+            "$ref": "#/components/schemas/CStatusRegistro"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

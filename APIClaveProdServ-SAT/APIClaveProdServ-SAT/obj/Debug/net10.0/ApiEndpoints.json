@@ -1,0 +1,153 @@
+[
+  {
+    "ContainingType": "APIClaveProdServ_SAT.Controllers.ClaveProdServControllers",
+    "Method": "TraeClavesProdServ",
+    "RelativePath": "api/claveprodservcontrollers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[APIClaveProdServ_SAT.Dto.ClaveProdServDto, APIClaveProdServ-SAT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIClaveProdServ_SAT.Controllers.ClaveProdServControllers",
+    "Method": "CreaClaveProdServ",
+    "RelativePath": "api/claveprodservcontrollers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claveprdserv",
+        "Type": "APIClaveProdServ_SAT.Dto.CreaClaveProdServDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIClaveProdServ_SAT.Dto.ClaveProdServDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIClaveProdServ_SAT.Controllers.ClaveProdServControllers",
+    "Method": "ActualizaClaveProdServ",
+    "RelativePath": "api/claveprodservcontrollers",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claveprodserv",
+        "Type": "APIClaveProdServ_SAT.Dto.ClaveProdServDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIClaveProdServ_SAT.Dto.ClaveProdServDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIClaveProdServ_SAT.Controllers.ClaveProdServControllers",
+    "Method": "TraeClaveProdServ",
+    "RelativePath": "api/claveprodservcontrollers/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIClaveProdServ_SAT.Dto.ClaveProdServDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIClaveProdServ_SAT.Controllers.ClaveProdServControllers",
+    "Method": "EliminaClaveProdServ",
+    "RelativePath": "api/claveprodservcontrollers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  }
+]

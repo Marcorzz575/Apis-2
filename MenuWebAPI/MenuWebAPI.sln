@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37614.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuWebAPI", "MenuWebAPI\MenuWebAPI.csproj", "{0C6F0943-6884-41A6-832C-5B5DC24C354A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C6F0943-6884-41A6-832C-5B5DC24C354A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6F0943-6884-41A6-832C-5B5DC24C354A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6F0943-6884-41A6-832C-5B5DC24C354A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6F0943-6884-41A6-832C-5B5DC24C354A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9033FD74-7615-4CFB-B73F-64E5985118B7}
+	EndGlobalSection
+EndGlobal

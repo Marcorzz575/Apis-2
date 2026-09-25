@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\models\\dbventamxapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\models\\dbventamxapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\controllers\\configuracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\controllers\\configuracioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\models\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\models\\configuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\controllers\\catalogosatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\controllers\\catalogosatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\models\\localidadsat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\models\\localidadsat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\models\\coloniasat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\models\\coloniasat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\models\\rolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\models\\rolmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\controllers\\menuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|c:\\users\\luis g\\desktop\\proyectos\\menuwebapi\\menuwebapi\\menuwebapi\\models\\cstatusregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C6F0943-6884-41A6-832C-5B5DC24C354A}|MenuWebAPI\\MenuWebAPI.csproj|solutionrelative:menuwebapi\\models\\cstatusregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBVENTAMXAPIContext.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\DBVENTAMXAPIContext.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Models\\DBVENTAMXAPIContext.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\DBVENTAMXAPIContext.cs",
+              "RelativeToolTip": "MenuWebAPI\\Models\\DBVENTAMXAPIContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwB4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T17:57:35.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Program.cs",
+              "RelativeToolTip": "MenuWebAPI\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T00:12:24.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\Usuario.cs",
+              "RelativeToolTip": "MenuWebAPI\\Models\\Usuario.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA9wDMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T00:08:20.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "MenuWebAPI\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwFMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T00:12:15.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfiguracionController.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Controllers\\ConfiguracionController.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Controllers\\ConfiguracionController.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Controllers\\ConfiguracionController.cs",
+              "RelativeToolTip": "MenuWebAPI\\Controllers\\ConfiguracionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T00:58:44.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Configuracion.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\Configuracion.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Models\\Configuracion.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\Configuracion.cs",
+              "RelativeToolTip": "MenuWebAPI\\Models\\Configuracion.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T00:50:04.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CatalogoSatController.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Controllers\\CatalogoSatController.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Controllers\\CatalogoSatController.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Controllers\\CatalogoSatController.cs",
+              "RelativeToolTip": "MenuWebAPI\\Controllers\\CatalogoSatController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T01:05:27.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LocalidadSAT.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\LocalidadSAT.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Models\\LocalidadSAT.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\LocalidadSAT.cs",
+              "RelativeToolTip": "MenuWebAPI\\Models\\LocalidadSAT.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T01:02:05.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ColoniaSAT.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\ColoniaSAT.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Models\\ColoniaSAT.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\ColoniaSAT.cs",
+              "RelativeToolTip": "MenuWebAPI\\Models\\ColoniaSAT.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T01:00:41.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MenuWebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T23:30:54.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MenusController.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Controllers\\MenusController.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Controllers\\MenusController.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Controllers\\MenusController.cs",
+              "RelativeToolTip": "MenuWebAPI\\Controllers\\MenusController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T00:22:37.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Models\\Menu.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\Menu.cs",
+              "RelativeToolTip": "MenuWebAPI\\Models\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T17:55:12.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RolMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\RolMenu.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Models\\RolMenu.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\RolMenu.cs",
+              "RelativeToolTip": "MenuWebAPI\\Models\\RolMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T17:56:48.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\Rol.cs",
+              "RelativeToolTip": "MenuWebAPI\\Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T17:56:21.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CStatusRegistro.cs",
+              "DocumentMoniker": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\CStatusRegistro.cs",
+              "RelativeDocumentMoniker": "MenuWebAPI\\Models\\CStatusRegistro.cs",
+              "ToolTip": "C:\\Users\\Luis G\\Desktop\\Proyectos\\MenuWebAPI\\MenuWebAPI\\MenuWebAPI\\Models\\CStatusRegistro.cs",
+              "RelativeToolTip": "MenuWebAPI\\Models\\CStatusRegistro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-22T17:48:32.471Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNI\\Proyecto Integrador 2\\APIClaveProdServ\\APIClaveProdServ-SAT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DADBC856-4925-0FE3-0851-EA318644D0A1}|APIClaveProdServ-SAT\\APIClaveProdServ-SAT.csproj|d:\\uni\\proyecto integrador 2\\apiclaveprodserv\\apiclaveprodserv-sat\\apiclaveprodserv-sat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DADBC856-4925-0FE3-0851-EA318644D0A1}|APIClaveProdServ-SAT\\APIClaveProdServ-SAT.csproj|solutionrelative:apiclaveprodserv-sat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DADBC856-4925-0FE3-0851-EA318644D0A1}|APIClaveProdServ-SAT\\APIClaveProdServ-SAT.csproj|d:\\uni\\proyecto integrador 2\\apiclaveprodserv\\apiclaveprodserv-sat\\apiclaveprodserv-sat\\repositories\\apiclaveprodservcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DADBC856-4925-0FE3-0851-EA318644D0A1}|APIClaveProdServ-SAT\\APIClaveProdServ-SAT.csproj|solutionrelative:apiclaveprodserv-sat\\repositories\\apiclaveprodservcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DADBC856-4925-0FE3-0851-EA318644D0A1}|APIClaveProdServ-SAT\\APIClaveProdServ-SAT.csproj|d:\\uni\\proyecto integrador 2\\apiclaveprodserv\\apiclaveprodserv-sat\\apiclaveprodserv-sat\\dto\\claveprodserv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DADBC856-4925-0FE3-0851-EA318644D0A1}|APIClaveProdServ-SAT\\APIClaveProdServ-SAT.csproj|solutionrelative:apiclaveprodserv-sat\\dto\\claveprodserv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DADBC856-4925-0FE3-0851-EA318644D0A1}|APIClaveProdServ-SAT\\APIClaveProdServ-SAT.csproj|d:\\uni\\proyecto integrador 2\\apiclaveprodserv\\apiclaveprodserv-sat\\apiclaveprodserv-sat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DADBC856-4925-0FE3-0851-EA318644D0A1}|APIClaveProdServ-SAT\\APIClaveProdServ-SAT.csproj|solutionrelative:apiclaveprodserv-sat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 221,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClaveProdServ.cs",
+              "DocumentMoniker": "D:\\UNI\\Proyecto Integrador 2\\APIClaveProdServ\\APIClaveProdServ-SAT\\APIClaveProdServ-SAT\\Dto\\ClaveProdServ.cs",
+              "RelativeDocumentMoniker": "APIClaveProdServ-SAT\\Dto\\ClaveProdServ.cs",
+              "ToolTip": "D:\\UNI\\Proyecto Integrador 2\\APIClaveProdServ\\APIClaveProdServ-SAT\\APIClaveProdServ-SAT\\Dto\\ClaveProdServ.cs",
+              "RelativeToolTip": "APIClaveProdServ-SAT\\Dto\\ClaveProdServ.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T19:22:53.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UNI\\Proyecto Integrador 2\\APIClaveProdServ\\APIClaveProdServ-SAT\\APIClaveProdServ-SAT\\Program.cs",
+              "RelativeDocumentMoniker": "APIClaveProdServ-SAT\\Program.cs",
+              "ToolTip": "D:\\UNI\\Proyecto Integrador 2\\APIClaveProdServ\\APIClaveProdServ-SAT\\APIClaveProdServ-SAT\\Program.cs",
+              "RelativeToolTip": "APIClaveProdServ-SAT\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T18:57:29.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UNI\\Proyecto Integrador 2\\APIClaveProdServ\\APIClaveProdServ-SAT\\APIClaveProdServ-SAT\\appsettings.json",
+              "RelativeDocumentMoniker": "APIClaveProdServ-SAT\\appsettings.json",
+              "ToolTip": "D:\\UNI\\Proyecto Integrador 2\\APIClaveProdServ\\APIClaveProdServ-SAT\\APIClaveProdServ-SAT\\appsettings.json",
+              "RelativeToolTip": "APIClaveProdServ-SAT\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-25T18:56:02.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "APIClaveProdServContext.cs",
+              "DocumentMoniker": "D:\\UNI\\Proyecto Integrador 2\\APIClaveProdServ\\APIClaveProdServ-SAT\\APIClaveProdServ-SAT\\Repositories\\APIClaveProdServContext.cs",
+              "RelativeDocumentMoniker": "APIClaveProdServ-SAT\\Repositories\\APIClaveProdServContext.cs",
+              "ToolTip": "D:\\UNI\\Proyecto Integrador 2\\APIClaveProdServ\\APIClaveProdServ-SAT\\APIClaveProdServ-SAT\\Repositories\\APIClaveProdServContext.cs",
+              "RelativeToolTip": "APIClaveProdServ-SAT\\Repositories\\APIClaveProdServContext.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAswHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T18:37:11.8Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

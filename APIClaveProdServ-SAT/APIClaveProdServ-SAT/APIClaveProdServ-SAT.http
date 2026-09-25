@@ -1,0 +1,6 @@
+@APIClaveProdServ_SAT_HostAddress = http://localhost:5167
+
+GET {{APIClaveProdServ_SAT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
